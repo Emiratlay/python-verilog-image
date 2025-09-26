@@ -5,8 +5,10 @@ Bu proje, OpenCV kullanarak bir fotoğrafı **siyah-beyaz** (gri tonlama) yapmay
 ##  Gereksinimler
 Öncelikle OpenCV kütüphanesini yükleyin:
 
+```bash
 pip install opencv-python 
-
+````
+````Python
 import cv2
 
 # Fotoğrafı oku
@@ -26,5 +28,5 @@ cv2.destroyAllWindows()
 
 Girdi: input.png
 Çıktı: ornek_siyahbeyaz.jpg
-
+````
 
